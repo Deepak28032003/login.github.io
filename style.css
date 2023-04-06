@@ -1,0 +1,52 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: darkblue;
+}
+.form2 {
+  -webkit-box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  background-color: #84ccbc;
+}
+.title {
+  color: darkblue;
+  font-size: 60px;
+  font-family: "Caveat", cursive;
+}
+body {
+  background-color: #d4f9df;
+}
+input::placeholder {
+  text-align: center;
+  color: lightgray;
+  font-family: "IBM Plex Mono", monospace;
+}
+input {
+  text-align: center;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.forgot-password:hover {
+  color: blue;
+}
+.forgot-password {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 600;
+}
+.Remember-me {
+  font-weight: 600;
+}
+.admin-sign-in,
+.sign-up,
+.sign-in {
+  font-family: "Space Grotesk", sans-serif;
+  -webkit-box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75)!important;
+  -moz-box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75)!important;
+  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.75)!important;
+  
+}
